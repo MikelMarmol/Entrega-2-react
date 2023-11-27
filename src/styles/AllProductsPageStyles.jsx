@@ -9,6 +9,7 @@ export const HeroContainer = styled.div`
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    background-color: #f9f9f9;
 
     @media (max-width: 768px) {
         width: 100%;
@@ -82,7 +83,6 @@ to {
 
 export const ProductImg = styled.img`
     width: 90%;
-    height: 460px;
     border: 2px solid brown;
     border-radius: 20px;
 
@@ -92,14 +92,17 @@ export const ProductImg = styled.img`
     }; `
 
 export const ProductName = styled.h3`
-    font-size: 22px; `
+    font-size: 22px; 
+    `
 
 export const ProductPieces = styled.p`
     color: white;
     font-weight: 800;
     font-size: 18px;
     text-align: center;
-    margin-bottom: 10px; `
+    margin-bottom: 10px;
+    width: 75% 
+`
 
 export const ProductBtn = styled.button`
     padding: 10px;

@@ -7,8 +7,8 @@ const EightProduct = () => {
         <ProductDiv>  
         
                 <ProductImg  
-                src={image}
-                alt="Piranha (Mario Bros)">
+                    src={image}
+                    alt="Piranha (Mario Bros)">
                 </ProductImg>
 
                 <ProductPieces>

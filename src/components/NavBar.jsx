@@ -11,7 +11,7 @@ return (
         <Header>
             <Navbar>
                 <NavbarDiv>
-                    <img src={logo} alt="Lego Logo" />
+                    <img src={logo} alt="Logo" />
                     <ExtraDiv>
                     <MenuIcon size="40" cursor="pointer" onClick={toggleMenu} />
                     </ExtraDiv>

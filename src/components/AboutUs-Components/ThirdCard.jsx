@@ -1,10 +1,24 @@
 import React from 'react'
-import {AboutContainer, Title, CardContainer, Card, CardTitle, ImageContainer} from '../../styles/AboutPageStyles'
+import {AboutContainer, Title, CardContainer, Card, CardTitle, DiscordPhoto, AboutBtn} from '../../styles/AboutPageStyles'
+import DiscordImage from '../../assets/AboutUs-Image/DiscordLogo.webp';
 
 const ThirdCard = () => { 
 return (
     <Card>
-        <CardTitle>LEGO created the first minifigure in 1978. Since then, LEGO has created over 4 billion minifigures, making it the world’s largest population group.</CardTitle>
+        <DiscordPhoto 
+            src={DiscordImage} 
+            alt="DiscordLogo" >
+        </DiscordPhoto>
+        
+        <CardTitle>
+            UNETE AL DISCORD DE LA COMUNIDAD PARA DIVERTIRTE Y SER EL PRIMERO EN 
+            ENTERARTE CUANDO HAY VIDEO NUEVO Y CUNADO HAGO DIRECTO. 
+            ADEMAS DE DISFRUTAR DE LA VARIEDAD DE CANALES DENTRO DEL MISMO.
+
+            <AboutBtn>
+               <a href='https://discord.gg/ACa4hvdNx6' target="_blank">Unirse</a> 
+            </AboutBtn>
+        </CardTitle>
     </Card>
     )
 }
