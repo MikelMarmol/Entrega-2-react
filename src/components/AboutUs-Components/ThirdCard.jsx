@@ -11,9 +11,9 @@ return (
         </DiscordPhoto>
         
         <CardTitle>
-            UNETE AL DISCORD DE LA COMUNIDAD PARA DIVERTIRTE Y SER EL PRIMERO EN 
-            ENTERARTE CUANDO HAY VIDEO NUEVO Y CUNADO HAGO DIRECTO. 
-            ADEMAS DE DISFRUTAR DE LA VARIEDAD DE CANALES DENTRO DEL MISMO.
+
+            Unete al DISCORD de la comunidad para divertirte y ser el primero en 
+            enterarte cuando hay video y cuando hago directo.
 
             <AboutBtn>
                <a href='https://discord.gg/ACa4hvdNx6' target="_blank">Unirse</a> 

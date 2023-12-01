@@ -21,7 +21,6 @@ return (
         <Routes>
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/about" element={<AboutPage />} />
-            {/* <Route path="/Lego Shop" element={<MainPage />} />  */}
             <Route path="/products" element={<AllProductsPage/>} />
             <Route path="/" element={
                 <>

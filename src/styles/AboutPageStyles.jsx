@@ -3,15 +3,36 @@ import styled from 'styled-components';
 
 export const TwitchPhoto = styled.img`
     width: 160px;
-  `
+
+    @media (max-width: 1125px) {
+        width: 130px;
+    }
+
+    @media (max-width: 710px) {
+        width: 110px;
+    }`
 
 export const DiscordPhoto = styled.img`
     width: 210px;
- `
+    
+    @media (max-width: 1125px) {
+        width: 180px;
+    } 
+    
+    @media (max-width: 710px) {
+        width: 160px;
+    }`
 
 export const CerebroPhoto = styled.img`
     width: 170px;
-`
+
+    @media (max-width: 1125px) {
+        width: 140px;
+    }
+    
+    @media (max-width: 710px) {
+        width: 120px;
+    }`
 
 
 export const AboutContainer = styled.div`
@@ -38,16 +59,35 @@ export const CardContainer = styled.div`
 
 export const Card = styled.div`
     width: 70%;
-    height: 200px;
+    height: 250px;
     background-color: #323232;
     margin: 10px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: start;
     padding: 0px 50px 0px 100px;
     gap: 100px;
     border-radius: 20px;
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.452);  `
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.452); 
+
+    @media (max-width: 1125px) {
+        width: 90%;
+    } 
+    
+    @media (max-width: 965px) {
+        gap: 5px;
+    }
+    
+    @media (max-width: 710px) {
+        padding: 0px 20px 0px 20px;
+    }
+    
+    @media (max-width: 500px) {
+        flex-direction: column;
+        justify-content: center;
+        height: 370px;
+    }`
 
 export const CardTitle = styled.h2`
     display: flex;
@@ -59,7 +99,17 @@ export const CardTitle = styled.h2`
     font-size: 20px;
     text-align: center;
     margin: 10px;
-    font-weight: 800;`
+    font-weight: 600;
+
+    @media (max-width: 965px) {
+        gap: 20px;
+        margin: 5px;
+    }
+
+    @media (max-width: 710px) {
+        font-size: 16px;
+        margin: 5px;
+    }`
 
 export const AboutBtn = styled.button`
 padding: 10px;

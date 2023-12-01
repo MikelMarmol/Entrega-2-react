@@ -9,7 +9,7 @@ export const Form = styled.form`
     background-color: #333333;
     
     @media (max-width: 768px) {
-        padding: 30px;
+        
     }`
 
 export const DivInformation = styled.div`
@@ -33,7 +33,7 @@ export const SecondDiv = styled.div`
     }
 
     @media (max-width: 768px) {
-        height: 370px;
+        
     } `
 
 export const DivTitle = styled.h1`
@@ -45,7 +45,11 @@ export const DivParagraph = styled.p`
     color: #ffffff;
     text-align: center;
     width: 80%;
-    font-size: 18px; `
+    font-size: 18px; 
+    @media (max-width: 400px) {
+        width: 100%;
+        font-size: 18px;
+    } `
 
 export const SecondParagraph = styled(DivParagraph)``
 
@@ -56,12 +60,7 @@ export const DivNamesForm = styled.div`
     justify-content: center; 
     flex-direction: column;
     gap: 10px;
-    padding: 10px;
-
-    @media (max-width: 768px) {
-        width: 100%;
-        padding: 0px;
-    } `
+    padding: 10px; `
 
 export const InputNames = styled.input`
     width: 50%;
@@ -70,11 +69,6 @@ export const InputNames = styled.input`
     border: 2px solid white;
     border-radius: 15px;
     background-color: #ff9500;
-
-    
-    @media (max-width: 768px) {
-        width: 100%;
-    } 
     
     @media (max-width: 992px) {
         width: 100%;
@@ -91,10 +85,6 @@ export const InputEmail = styled.input.attrs({
     border-radius: 15px;
     background-color: #ff9500;
     
-    @media (max-width: 768px) {
-        width: 100%;
-    }
-    
     @media (max-width: 992px) {
         width: 100%;
         font-size: 18px;
@@ -109,10 +99,6 @@ export const InputText = styled.textarea`
     border-radius: 15px;
     background-color: #ff9500;
     
-    @media (max-width: 768px) {
-        width: 100%;
-    }
-
     @media (max-width: 992px) {
         width: 100%;
         font-size: 18px;
@@ -133,14 +119,6 @@ export const SubmitButton = styled.button`
     &:hover {
         background-color: #e77620;
         
-    } 
-
-    @media (max-width: 768px) {
-        width: 100%;
-    }
-    
-    @media (max-width: 992px) {
-        width: 90%;
     } `
 
 export const EmptyDiv = styled.div``

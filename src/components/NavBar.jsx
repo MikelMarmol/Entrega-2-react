@@ -11,7 +11,7 @@ return (
         <Header>
             <Navbar>
                 <NavbarDiv>
-                    <img src={logo} alt="Logo" />
+                    <a href='http://localhost:5173/'><img src={logo} alt="Logo" /></a>
                     <ExtraDiv>
                     <MenuIcon size="40" cursor="pointer" onClick={toggleMenu} />
                     </ExtraDiv>

@@ -1,6 +1,6 @@
 import React from "react";
 import image from '../assets/MostFeaturedProducts-Imgs/MINIATURA 63.jpg'
-import {HomeContainer, HomeCardContainer, HomeProducts, HomeTitle, HomeProductImg, HomeProductTitle, } from '../styles/MostFeaturedStyles'
+import {HomeContainer, HomeCardContainer, HomeProducts, HomeTitle, HomeProductImg, HomeProductTitle, HomeProductBtn } from '../styles/MostFeaturedStyles'
 
 
 export function MostFeatured() {

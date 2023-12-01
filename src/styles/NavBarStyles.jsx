@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { HiOutlineMenu } from "react-icons/hi";
 
 export const Header = styled.header`
-    background-color:  rgb(255, 145, 0);; 
+    background-color:  rgb(255, 145, 0); 
     width: 100%;
     height: 85px;
     padding: 5px;
@@ -39,6 +39,16 @@ export const NavbarUl = styled.ul`
         display: ${props => (props.isMenuOpen ? 'flex' : 'none')};
         text-align: center;
         align-items: center;
+        background-color: rgb(255, 145, 0);
+        border-bottom: 2px;
+        border-left: 2px;
+        border-right: 2px;
+        border-top: 0px;
+        border-style: solid;
+        border-color: brown;
+        border-radius: 0px 0px 20px 20px;
+        z-index: 5;
+        width: 95%;
     } `
 
 export const NavbarList = styled.li`
@@ -68,7 +78,7 @@ export const NavbarDiv = styled.div`
     margin-left: 10px;
     
     @media (max-width: 768px) {
-        flex-direction: column; 
+        flex-direction: row; 
     } `
 
 export const NavbarTitle = styled.h1`
