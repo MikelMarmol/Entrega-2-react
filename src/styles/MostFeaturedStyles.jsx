@@ -15,7 +15,6 @@ export const HomeCardContainer = styled.div`
     align-items: center;
     background-color: #FD8024; 
     border-radius: 20px;
-    max-width: 1200px;
     flex-wrap: wrap;
     padding: 20px;
     
@@ -75,15 +74,7 @@ to {
 export const HomeProductImg = styled.img`
     width: 100%;
     border: 2px solid brown;
-    border-radius: 20px;
-   
-    @media (max-width: 360px) {
-        width: 350px;
-    }; 
-
-    @media (max-width: 768px) {
-        width: 350px;
-    };`
+    border-radius: 20px;`
 
 export const ProductName = styled.h3`
     font-size: 22px; `
@@ -92,7 +83,11 @@ export const HomeProductTitle = styled.p`
     font-weight: 800;
     font-size: 18px;
     text-align: center;
-    margin-bottom: 10px; `
+    margin-bottom: 10px; 
+    
+    @media (max-width: 400px) {
+        font-size: 15px;
+    };`
 
 export const HomeProductBtn = styled.button`
     padding: 10px;

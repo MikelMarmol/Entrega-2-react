@@ -5,42 +5,11 @@ export const HeroContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
-    
-    @media (max-width: 768px) {
-        width: 100%;
-        padding: 0px;
-    };
-    
-    @media (max-width: 992px) {
-        width: 100%;
-        padding: 0px;
-    }; `
+    align-items: center;  `
 
 export const HeroDiv = styled.div`
     background-repeat: no-repeat;
-    width: 100%;
-   
-
-    @media (max-width: 768px) {
-        width: 100%;
-    };
-
-    @media (max-width: 992px) {
-        width: 100%;
-    }; 
-
-@media (max-width: 1366px) {
-        width: 100%;
-    }; 
-    
-    @media (max-width: 1600px) {
-        width: 100%;
-    }; 
-    
-    @media (max-width: 360px) {
-        padding: 0px;
-    }; `
+    width: 100%;`
 
 export const HeroCardContainer = styled.div`
     display: flex;
@@ -51,27 +20,18 @@ export const HeroCardContainer = styled.div`
     border-top: 5px solid rgb(23, 23, 23);
     height: 600px;
 
-
-
-    @media (max-width: 768px) {
-        top: 15%;
-        width: 380px;
-        background-color: rgba(31, 32, 36, 0.801);
+    
+    @media (max-width: 1000px) {
+        height: 700px;
+    }; 
+    
+    @media (max-width: 760px) {
+        height: 750px;
     };
     
-    @media (max-width: 992px) {
-        top: 15%;
-        left: 15%;
-        background-color: rgba(31, 32, 36, 0.801);
-    }; 
-    
-    @media (max-width: 1024px) {
-        left: 15%;
-    }; 
-
-    @media (max-width: 360px) {
-        width: 200px;
-    }; ` 
+    @media (max-width: 500px) {
+        height: 800px;
+    };` 
 
 export const HeroCard = styled.div`
     display: flex;
@@ -84,8 +44,8 @@ export const HeroCard = styled.div`
     border-radius: 30px;
     border-top: 5px solid rgb(23, 23, 23); 
     
-    @media (max-width: 768px) {
-        text-align: center;
+    @media (max-width: 440px) {
+        width: 70%;
     };`
 
 export const HeroTitle = styled.h2`
@@ -94,8 +54,28 @@ export const HeroTitle = styled.h2`
     color: white;
     margin-top: 100px;
     
-    @media (max-width: 768px) {
+    @media (max-width: 1510px) {
+        font-size: 40px;
+        text-align: center;
+    };
+    
+    @media (max-width: 760px) {
         font-size: 30px;
+        text-align: center;
+    };
+    
+    @media (max-width: 640px) {
+        font-size: 25px;
+        text-align: center;
+    };
+    
+    @media (max-width: 440px) {
+        font-size: 20px;
+        text-align: center;
+    };
+    
+    @media (max-width: 310px) {
+        font-size: 18px;
         text-align: center;
     };`
 
@@ -105,19 +85,35 @@ export const HeroParrafo = styled.p`
     font-weight: 500;
     margin-left: 15px; 
     
-    @media (max-width: 992px) {
-        font-size: 16px;
-    }; `
+    @media (max-width: 1510px) {
+        font-size: 25px;
+    };
+    
+    @media (max-width: 760px) {
+        font-size: 23px;
+        text-align: center;
+    };
+    
+    @media (max-width: 640px) {
+        font-size: 20px;
+        text-align: center;
+    };
+    
+    @media (max-width: 440px) {
+        font-size: 18px;
+        text-align: center;
+    };
+    
+    @media (max-width: 310px) {
+        font-size: 15px;
+        text-align: center;
+    };`
 
 export const VideoGameSpan = styled.span`
     color: #fff;
     font-size: 14px;
     font-weight: 800;
-    margin: 20px; 
-    
-    @media (max-width: 992px) {
-        font-size: 15.5px;
-    }; `
+    margin: 20px;  `
 
 export const VideoGamePurchaseDiv = styled.div`
     padding: 20px;
@@ -155,4 +151,20 @@ export const VideoGamePurchaseBtn = styled.button`
 
 export const Negrita = styled.span`
     font-size: 30px;
-    font-weight: 700;`
+    font-weight: 700;
+    
+    @media (max-width: 1510px) {
+        font-size: 25px;
+    };
+    
+    @media (max-width: 640px) {
+        font-size: 20px;
+    };
+    
+    @media (max-width: 440px) {
+        font-size: 18px;
+    };
+    
+    @media (max-width: 300px) {
+        font-size: 15px;
+    };`

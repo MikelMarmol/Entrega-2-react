@@ -7,7 +7,6 @@ export function HeroSection() {
         <HeroContainer>
             <HeroDiv>
             </HeroDiv>
-
         </HeroContainer>
     )
 }

@@ -15,7 +15,7 @@ export function MostFeatured() {
                     
                     <HomeProductImg  
                         src={image}
-                        alt="LEGO of Ahsoka (Star Wars)">
+                        alt="ULTIMO VIDEO SUBIDO">
                     </HomeProductImg>
 
                         <HomeProductTitle>

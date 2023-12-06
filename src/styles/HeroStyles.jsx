@@ -26,26 +26,18 @@ export const HeroDiv = styled.div`
     height: 700px; 
     
     @media (max-width: 768px) {
-    width: 100%;
-    text-align: left;
-    align-items: left;
-    }; `
+    width: 100%;}; `
 
 export const HeroTitle = styled.h2`
     font-size: 30px;
     padding: 20px;
-    margin: 70px 0px 0px 70px; `
+    margin: 70px 0px 0px 70px;  `
 
 export const HeroParagraph = styled.p`
     font-size: 20px;
     padding: 20px;
     font-weight: 600;
-    margin: 0px 0px 0px 70px; 
-    
-    @media (max-width: 768px) {
-        font-size: 19px;
-        margin-left: 0px;
-    }; `
+    margin: 0px 0px 0px 70px; `
 
 export const BtnDiv = styled.div`
     padding: 20px;
