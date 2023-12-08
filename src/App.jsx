@@ -8,6 +8,7 @@ import { GlobalStyles } from './styles/GeneralStyles';
 import { Footer } from './components/Footer';
 import ContactPage from './ContactPage';
 import AboutPage from './AboutPage';
+import SubsPage from './SubsPage';
 import AllProductsPage from './AllProductsPage'
 import { ContextProvider } from './Context/Context';
 // import MainPage from './main'
@@ -22,6 +23,7 @@ return (
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/products" element={<AllProductsPage/>} />
+            <Route path="/suscriptions" element={<SubsPage/>} />
             <Route path="/" element={
                 <>
                     <HeroSection />

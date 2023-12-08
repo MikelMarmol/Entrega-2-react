@@ -34,6 +34,16 @@ export const CerebroPhoto = styled.img`
         width: 120px;
     }`
 
+export const YoutubePhoto = styled.img`
+    width: 240px;
+
+    @media (max-width: 1125px) {
+        width: 210px;
+    }
+    
+    @media (max-width: 710px) {
+        width: 190px;
+    }`
 
 export const AboutContainer = styled.div`
     display: flex;

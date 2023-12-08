@@ -19,7 +19,6 @@ return (
 
                 <NavbarUl isMenuOpen={isMenuOpen}>
                     
-                    
                     <NavbarList>
                         <StyledLink to="/about">SOBRE MI</StyledLink>
                     </NavbarList>
@@ -29,15 +28,11 @@ return (
                     </NavbarList>
 
                     <NavbarList>
+                        <StyledLink to="/suscriptions" > SUSCRIBIRSE </StyledLink>
+                    </NavbarList>
+
+                    <NavbarList>
                         <StyledLink to="/contact">CONTACTAME</StyledLink>
-                    </NavbarList>
-
-                    <NavbarList>
-                        <NavbarLinks href="https://www.youtube.com/channel/UCEjTU5V5LiwUJaqBMKlw-PQ" target="_blank"> Youtube </NavbarLinks>
-                    </NavbarList>
-
-                    <NavbarList>
-                        <NavbarLinks href="https://www.twitch.tv/miguelcuervo20" target="_blank"> Twitch </NavbarLinks>
                     </NavbarList>
 
                 </NavbarUl>
