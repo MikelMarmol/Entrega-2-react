@@ -1,4 +1,4 @@
-import DesktopImage from '../assets/Hero-Section-Imgs/coc.png'
+import DesktopImage from '../assets/Hero-Section-Imgs/Coc.png'
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
