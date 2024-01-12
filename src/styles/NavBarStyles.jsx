@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { Link } from 'react-router-dom';
 import { HiOutlineMenu } from "react-icons/hi";
 
@@ -7,6 +7,7 @@ export const Header = styled.header`
     width: 100%;
     height: 85px;
     padding: 5px;
+    
     & img {
         display: flex;
         width: 75px;
@@ -121,3 +122,45 @@ export const ExtraDiv = styled.div`
     display: flex;
     align-items: center;
     gap: 10px;`
+
+
+export const LinksContainerStyled = styled.div`
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  a {
+    padding: 1rem 1.5rem;
+  }
+
+  a:first-child {
+    background: var(--orange-bg);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+`;
+
+export const LinkContainerStyled = styled.div`
+  font-size: 1.2rem;
+  color: ${props => (props.home ? '#ffffff' : '#ffffff')};
+`;
+
+export const ModalOverlayStyled = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: calc(100vw - 450px);
+  height: 100vh;
+
+  ${({ isHidden }) =>
+    !isHidden &&
+    css`
+      backdrop-filter: blur(4px);
+    `}
+`;

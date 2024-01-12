@@ -4,12 +4,19 @@ import { Navbar, NavbarList, NavbarLinks, NavbarDiv, NavbarUl, Header, StyledLin
 import { HiOutlineMenu } from "react-icons/hi";
 import { useAppContext } from '../Context/Context';
 
+import ModalCart from '../components/Cart/ModalCart';
+import ModalUser from '../components/Cart/ModalUser';
+import CartIcon from '../components/Cart/CartIcon';
+
 export default function NavBar() {
     const {isMenuOpen, toggleMenu} = useAppContext();
 
 return (
         <Header>
             <Navbar>
+                <ModalCart />
+                <ModalUser />
+                
                 <NavbarDiv>
                     <a href='http://localhost:5173/'><img src={logo} alt="Logo" /></a>
                     <ExtraDiv>
@@ -34,8 +41,11 @@ return (
                     <NavbarList>
                         <StyledLink to="/contact">CONTACTAME</StyledLink>
                     </NavbarList>
-
+                    
                 </NavbarUl>
+
+                <CartIcon />
+                
             </Navbar>
         </Header>
     );

@@ -6,7 +6,7 @@ export const Form = styled.form`
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    background-color: #333333;
+    background-color: #1b1b1b;
     
     @media (max-width: 768px) {
         
@@ -24,7 +24,7 @@ export const SecondDiv = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333333;
+    background-color: #1b1b1b;
     height: 650px;
     border-radius: 8px;
 
@@ -117,8 +117,18 @@ export const SubmitButton = styled.button`
     background-color: #ff9500;
     
     &:hover {
-        background-color: #e77620;
+        background-color: brown;
         
     } `
 
 export const EmptyDiv = styled.div``
+
+export const ErrorStyled = styled.input`
+    color: white;
+    width: 50%;
+    padding: 10px;
+    resize: none; 
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #f93131;
+  `

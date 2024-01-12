@@ -1,5 +1,5 @@
 import React from 'react'
-import {HeroContainer, ProductsContainer,ProductsTitle} from './styles/AllProductsPageStyles'
+import {HeroContainer, ProductsContainer,ProductsTitle, ContainerBtn, ProductBtn, FilterBtn} from './styles/AllProductsPageStyles'
 import {Footer} from './components/Footer'
 import OneProduct from './components/AllProducts-Products/OneProduct'
 import SecondProduct from './components/AllProducts-Products/SecondProduct'
@@ -14,31 +14,32 @@ import TenProduct from './components/AllProducts-Products/TenProduct'
 import ElevenProduct from './components/AllProducts-Products/ElevenProduct'
 import TwelveProduct from './components/AllProducts-Products/TwelveProduct'  
 import ThirteenProduct from './components/AllProducts-Products/ThirteenProduct'
+import Categories from './components/AllProducts-Products/Categorias'
 
 
 export default function ContactPage() {
     return (
-        <HeroContainer>
+        
 
-            <ProductsTitle>
-               TODOS MIS VIDEOS
-            </ProductsTitle>
+        <HeroContainer> 
 
-        <ProductsContainer>
-            <OneProduct />
-            <SecondProduct />
-            <ThirdProduct />
-            <FourthProduct />
-            <FifthProduct />
-            <SixthProduct />
-            <SeventhProduct />
-            <EigthProduct />
-            <NinthProduct />
-            <TenProduct />
-            <ElevenProduct />
-            <TwelveProduct />
-            <ThirteenProduct />
-        </ProductsContainer>
+            <Categories />
+
+            <ProductsContainer>
+                <OneProduct />
+                <SecondProduct />
+                <ThirdProduct />
+                <FourthProduct />
+                <FifthProduct />
+                <SixthProduct />
+                <SeventhProduct />
+                <EigthProduct />
+                <NinthProduct />
+                <TenProduct />
+                <ElevenProduct />
+                <TwelveProduct />
+                <ThirteenProduct />
+            </ProductsContainer>
 
             <Footer />
         </HeroContainer>

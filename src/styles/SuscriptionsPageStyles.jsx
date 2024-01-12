@@ -37,7 +37,7 @@ export const SubCard = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    background-color: grey;
+    background-color: gray;
     width: 90%;
     border-radius: 20px;
     padding: 15px;

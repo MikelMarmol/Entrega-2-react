@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: #f9f9f9;
+    background-color: #1b1b1b;
 
     @media (max-width: 768px) {
         width: 100%;
@@ -36,7 +36,7 @@ export const ProductsContainer = styled.div`
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #1b1b1b;
     
     @media (max-width: 768px) {
         flex-direction: column;
@@ -101,7 +101,8 @@ export const ProductPieces = styled.p`
     font-size: 18px;
     text-align: center;
     margin-bottom: 10px;
-    width: 75% `
+    width: 75%;
+    `
 
 export const ProductBtn = styled.button`
     padding: 10px;
@@ -113,9 +114,36 @@ export const ProductBtn = styled.button`
     border-radius: 20px;
     margin-bottom: 10px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #6c6c6c;
     
     &:hover {
         background-color: brown;
         color: #fff;
     }`
+
+export const FilterBtn = styled.button`
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 2px solid brown;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgba(255, 145, 0, 0.922);
+    
+    &:hover {
+        background-color: brown;
+        color: #fff;
+    }`
+
+    
+export const ContainerBtn = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px; `
+    
+

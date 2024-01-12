@@ -131,7 +131,7 @@ border: 2px solid rgba(255, 145, 0, 0.922);
 border-radius: 20px;
 margin-bottom: 10px;
 text-align: center;
-background-color: #ffffff;
+background-color: #333;
 
 &:hover {
         background-color: rgba(255, 145, 0, 0.922);

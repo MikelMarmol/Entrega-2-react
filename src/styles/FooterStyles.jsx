@@ -46,6 +46,7 @@ export const FooterLi = styled.li`
     color: rgb(104, 104, 104);
     cursor: pointer;
 
+
     &:hover {
         color: white;
     }

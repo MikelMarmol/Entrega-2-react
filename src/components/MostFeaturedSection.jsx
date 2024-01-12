@@ -19,11 +19,11 @@ export function MostFeatured() {
                     </HomeProductImg>
 
                         <HomeProductTitle>
-                            LOS MEJORES EJERCITOS PARA TH 13 - DESTRUYE A CUALQUIER TH13 CON ELLOS
+                        ESTAS SON las MEJORES HABILIDADES para la REINA ARQUERA 🏹👑
                         </HomeProductTitle>
 
                         <HomeProductBtn>
-                        <a href="https://www.youtube.com/watch?v=6IWIq56O884&t=1s&ab_channel=MiguelCuervo20" target="_blank">IR A VER</a>
+                        <a href="https://www.youtube.com/watch?v=XUXhTD54rsw&ab_channel=MiguelCuervo20" target="_blank">IR A VER</a>
                         </HomeProductBtn>
 
                 </HomeProducts>
