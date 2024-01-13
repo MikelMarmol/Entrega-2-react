@@ -17,7 +17,6 @@ import {
   CloseButtonContainerStyled,
   CloseButtonStyled,
   ContainerStyled,
-  EnvioStyled,
   PriceContainerStyled,
   PriceStyled,
   ProductsWrapperStyled,
@@ -101,15 +100,11 @@ const ModalCart = () => {
                 <p>Subtotal:</p>
                 <span>{formatPrice(totalPrice)}</span>
               </SubtotalStyled>
-              <EnvioStyled>
-                <p>Envio</p>
-                <span>{formatPrice(shippingCost)}</span>
-              </EnvioStyled>
               <hr />
               <TotalStyled>
                 <p>Total:</p>
                 <PriceStyled>
-                  {formatPrice(totalPrice + shippingCost)}
+                  {formatPrice(totalPrice)}
                 </PriceStyled>
               </TotalStyled>
               <ButtonContainerStyled>

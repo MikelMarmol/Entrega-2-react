@@ -100,7 +100,7 @@ export const HomeProductBtn = styled.button`
     border-radius: 5px;
     margin-bottom: 10px;
     text-align: center;
-    background-color: white;
+    background-color: #1e1e1e;
     
     &:hover {
         background-color: brown;

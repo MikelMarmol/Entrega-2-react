@@ -1,4 +1,3 @@
-import React from 'react';
 import { useDispatch } from 'react-redux';
 import { formatPrice } from '../../utils';
 
@@ -10,28 +9,28 @@ import Count from '../../Ui/Count';
 import Increase from '../../Ui/Increase';
 
 import {
-  ProductContainerStyled,
-  TextContainerStyled,
-  CardTitleStyled,
-  TextStyled,
+  CardContainerStyled,
+  CardInfoStyled,
   PriceStyled,
+  ProductTitleStyled,
+  TextStyled,
   QuantityContainerStyled,
-} from './ModalCartsStyles';
-import { addToCart, removeFromCart } from '../../redux/cartSlice';
+} from './CardProductCheckoutStyles';
+import { addToCart, removeFromCart } from '../../redux/categoriesSlice';
 
-const ModalCartCard = ({  title, desc, price, quantity, id }) => {
+const CardProductCheckout = ({ title, price, quantity, id }) => {
   const dispatch = useDispatch();
 
   return (
-    <ProductContainerStyled>
-      <TextContainerStyled>
-        <CardTitleStyled>{title}</CardTitleStyled>
-        <TextStyled>{desc}</TextStyled>
+    <CardContainerStyled>
+    
+      <CardInfoStyled>
+        <ProductTitleStyled>{title}</ProductTitleStyled>
         <PriceStyled>{formatPrice(price)}</PriceStyled>
-      </TextContainerStyled>
+      </CardInfoStyled>
       <QuantityContainerStyled>
         <Increase
-          bgColor='var(--btn-gradient-secondary)'
+          bgColor='blue'
           onClick={() => dispatch(removeFromCart(id))}
         >
           {quantity === 1 ? <IoMdTrash /> : <FaMinus />}
@@ -39,14 +38,14 @@ const ModalCartCard = ({  title, desc, price, quantity, id }) => {
         <Count>{quantity}</Count>
         <Increase
           onClick={() =>
-            dispatch(addToCart({ title, desc, price, id }))
+            dispatch(addToCart({ title, price, id }))
           }
         >
           <BsPlusLg />
         </Increase>
       </QuantityContainerStyled>
-    </ProductContainerStyled>
+    </CardContainerStyled>
   );
 };
 
-export default ModalCartCard;
+export default CardProductCheckout;

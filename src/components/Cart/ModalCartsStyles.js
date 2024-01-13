@@ -115,6 +115,7 @@ export const CardTitleStyled = styled.h3`
   margin: 0;
   margin-bottom: 2px;
   font-weight: 500;
+  color: orange;
 `;
 
 export const TextStyled = styled.p`
